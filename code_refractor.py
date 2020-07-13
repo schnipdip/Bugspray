@@ -37,7 +37,6 @@ if __name__ == "__main__":
     path = sys.argv[1]
 
     if (path.endswith('.yml') or path.endswith('.yaml')):
-        #path = 'testcode.yml'
         data = yaml_load(path)
         write_data = parse_data(data)
         new_file = generate_yaml(path, write_data)
@@ -45,5 +44,5 @@ if __name__ == "__main__":
         print ('Successfully formated', path)
     else:
         print ('Invalid extension type')
-        #exit(0)
+        exit(0)
 
