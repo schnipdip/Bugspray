@@ -29,3 +29,13 @@
       copy:
         src: /etc/
         dest: /tmp/
+        
+- name: debug 4
+  debug:
+    msg: hello 4
+  tags: [never, debug]
+
+- name: Task 4
+  copy:
+    src: /etc/
+    dest: /tmp/
