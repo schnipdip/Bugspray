@@ -41,7 +41,7 @@ if __name__ == "__main__":
         write_data = parse_data(data)
         new_file = generate_yaml(path, write_data)
 
-        print ('Successfully formated', path)
+        print ('Successfully Refactored', path)
     else:
         print ('Invalid extension type')
         exit(0)
