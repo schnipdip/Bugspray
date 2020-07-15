@@ -7,4 +7,3 @@ Cleans up Ansible YAML Files. Mass removes debugs.
 `
 ## Future Improvements:
 - Check if `debugs:` exist in Yaml doc, if not, exit
-- Task chunk checks instead of line-by-line state check - removes the task chunk if `debug:` exists and not just a line that contains 'debug'
