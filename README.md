@@ -1,5 +1,9 @@
 # Ansible_YAML_Refactor
 Cleans up Ansible YAML Files. Mass removes debugs.
+## Requirements:
+Python Library: [argparse](https://pypi.org/project/argparse/) 
+Python Library: yaml
+Python Library: sys
 
 ## Example:
 
