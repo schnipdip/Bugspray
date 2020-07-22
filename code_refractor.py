@@ -38,9 +38,6 @@ def generate_yaml(path, write_data):
 
 if __name__ == "__main__":
 
-    #path = sys.argv[1]
-    #path = "C:\\Users\\Chris Herzog\\Documents\\Python Scripts\Ansible Code Refactor\\testcode.yml"
-
     parser = argparse.ArgumentParser(description='This program will remove all debug or exclude a keyword debug')
     
     parser.add_argument('-i', action='store', dest='path', help='Stores the path to the yaml code')
