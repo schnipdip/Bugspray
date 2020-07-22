@@ -1,5 +1,5 @@
-# Ansible Plum ![plum](https://funkyimg.com/i/36qe1.png)
-Ansible Plum cleans up Ansible YAML Files and mass removes debugs.
+# Ansible Plum ![bugspray](https://funkyimg.com/i/36qh3.png)
+Bugspray cleans up Ansible YAML Files and mass removes debugs.
 
 *This is a personal project not affiliated with the [Ansible](https://github.com/ansible/ansible) Project*
 
