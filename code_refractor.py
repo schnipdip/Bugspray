@@ -16,7 +16,6 @@ def parse_data(data, exclusion):
     
     for i in data:
         if exclusion in i.values():
-            print (i)
             new.append(i)
         if 'debug' not in i.keys() and 'block' not in i.keys():
             '''Locates the Debug: tags'''
