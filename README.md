@@ -1,4 +1,4 @@
-![plum](https://funkyimg.com/i/36qdu.png)
+![plum](https://funkyimg.com/i/36qe1.png)
 
 # Ansible Plum
 Ansible Plum cleans up Ansible YAML Files and mass removes debugs.
