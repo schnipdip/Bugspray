@@ -1,3 +1,5 @@
+![plum](https://funkyimg.com/view/36qdu)
+
 # Ansible Plum
 Ansible Plum cleans up Ansible YAML Files and mass removes debugs.
 ## Requirements:
