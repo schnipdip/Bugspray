@@ -8,7 +8,6 @@ def yaml_load(path):
     
     return data
 
-
 def parse_data(data, exclusion):
     new = []
     blank = []
