@@ -1,4 +1,5 @@
 ![bugspray_img](https://funkyimg.com/i/36qvF.png) ![bugspray](https://funkyimg.com/i/36qh3.png)
+
 Bugspray cleans up Ansible YAML Files and mass removes debugs.
 
 *This is a personal project not affiliated with the [Ansible](https://github.com/ansible/ansible) Project*
