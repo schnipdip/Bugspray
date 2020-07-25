@@ -26,10 +26,22 @@ pip install -U -r .\requirements.txt
 
 ## Example:
 
-`python code_refactor.py -i testcode.yml -e 'debug 1'
+Process a single file with a exclusion:
+
+`
+python bugspray.py -i testcode.yml -e 'debug 1'
 `
 
-`python code_refactor.py -h
+Process multiple files:
+
+_Note: If using batch processing, the location of the batch.txt file needs to be located within the same directory_
+
+`
+python bugspray.py -L batch.txt
+`
+
+Get Help:
+`python bugspray.py -h
 `
 
 ### Special Thanks:
