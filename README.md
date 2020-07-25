@@ -32,6 +32,7 @@ pip install -U -r .\requirements.txt
 ## Future Improvements:
 - Check if `debugs:` exist in Yaml doc, if not, exit
 
+- keep list formatting with ruamel.yaml
 
 ### Special Thanks:
 - TrayKnots 
