@@ -1,6 +1,8 @@
 ![bugspray_img](https://funkyimg.com/i/36qvF.png) ![bugspray](https://funkyimg.com/i/36qh3.png)
 
-Bugspray cleans up Ansible YAML Files and mass removes debugs.
+Are you tired of having to clean up debugs when pushing development code to Ops/Production? 
+
+Bugspray allows you to mass remove debugs from your YAML files _or_ you can selectively keep debugs in your code!
 
 *This is a personal project not affiliated with the [Ansible](https://github.com/ansible/ansible) Project*
 
