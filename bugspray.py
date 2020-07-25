@@ -60,18 +60,39 @@ if __name__ == "__main__":
     
     parser.add_argument('-i', action='store', dest='path', help='Stores the path to the yaml code')
     parser.add_argument('-e', action='store', dest='exclusion', help='Stores the keyword to exclude from deletion')
-
+    parser.add_argument('-L', action='store', dest='path_list', help='Listing of multiple input files')
     result = parser.parse_args()
                         
     path = result.path
     exclusion = result.exclusion
-                        
-    if (path.endswith('.yml') or path.endswith('.yaml')):
-        data = yaml_load(path)
-        write_data = parse_data(data, exclusion)
-        new_file = generate_yaml(path, write_data)
+    path_list = result.path_list
+    
+    # open list of files to iterate through 
+    if path_list is not None:
+        with open('batch.txt', 'r') as f:
+            multiple_files = f.readlines()
+            
+            #remove \n from list elements
+            multiple_files = map(lambda del_newline: del_newline.strip(), multiple_files)
 
-        print ('Successfully Refactored', path)
+        for files in multiple_files:
+            if (files.endswith('.yml') or files.endswith('.yaml')):
+                data = yaml_load(files)
+                write_data = parse_data(data, exclusion)
+                new_file = generate_yaml(files, write_data)
+
+                print ('Successfully Refactored', files)
+            else:
+                print ('Invalid extension type')
+                exit(0)
+
+    elif path is not None:
+        if (path.endswith('.yml') or path.endswith('.yaml')):
+            data = yaml_load(path)
+            write_data = parse_data(data, exclusion)
+            new_file = generate_yaml(path, write_data)
+
+            print ('Successfully Refactored', path)
     else:
         print ('Invalid extension type')
         exit(0)
