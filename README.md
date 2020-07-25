@@ -10,6 +10,17 @@ Bugspray cleans up Ansible YAML Files and mass removes debugs.
 2. [yaml](https://pypi.org/project/PyYAML/)
 3. sys
 
+## Installation:
+
+`
+pip install -r .\requirements.txt
+`
+
+Or to update existing packages:
+`
+pip install -U -r .\requirements.txt
+`
+
 ## Example:
 
 `python code_refactor.py -i testcode.yml -e 'debug 1'
