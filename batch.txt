@@ -1,0 +1,2 @@
+# EXAMPLES - DELETE THESE EXAMPLES #
+# ~/home/user/Documents/ansible/roles/test/tasks/main.yml
