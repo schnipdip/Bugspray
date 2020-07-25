@@ -41,7 +41,9 @@ python bugspray.py -L batch.txt
 `
 
 Get Help:
-`python bugspray.py -h
+
+`
+python bugspray.py -h
 `
 
 ### Special Thanks:
