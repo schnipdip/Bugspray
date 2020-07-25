@@ -31,10 +31,6 @@ pip install -U -r .\requirements.txt
 
 `python code_refactor.py -h
 `
-## Future Improvements:
-- Check if `debugs:` exist in Yaml doc, if not, exit
-
-- keep list formatting with ruamel.yaml
 
 ### Special Thanks:
 - TrayKnots 
