@@ -1,5 +1,5 @@
-import argparse
 from ruamel import yaml
+import argparse
 import sys
 
 
@@ -63,8 +63,7 @@ if __name__ == "__main__":
 
     result = parser.parse_args()
                         
-    #path = result.path
-    path = 'testcode.yml'
+    path = result.path
     exclusion = result.exclusion
                         
     if (path.endswith('.yml') or path.endswith('.yaml')):
