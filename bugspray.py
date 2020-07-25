@@ -1,12 +1,15 @@
 import argparse
-import yaml
+from ruamel import yaml
 import sys
 
 
 def yaml_load(path):
-    with open(path, 'r') as f:
-        data = yaml.safe_load(f)
-    
+    with open(path) as file:
+        try:
+            data = yaml.safe_load(file)
+        except yaml.YAMLError as exc:
+            print (exc)
+        
     return data
 
 
@@ -30,10 +33,9 @@ def parse_data(data, exclusion):
 def generate_yaml(path, write_data):
     # dump the yaml to the file
     with open(path, 'w') as f:
-        noalias_dumper = yaml.dumper.SafeDumper
-        noalias_dumper.ignore_aliases = lambda self, write_data: True
-        yaml.dump(write_data, f, sort_keys=False, Dumper=noalias_dumper)
-    
+        yaml.round_trip_dump(write_data, f, allow_unicode=True, default_flow_style=False)
+
+    # add newline before each chunk
     with open(path, 'r') as x:
         content = x.readlines()
         array = []
@@ -44,7 +46,8 @@ def generate_yaml(path, write_data):
             else:
                 array.append(i)
         x.close()
-        
+    
+    # write new structured output
     with open(path, 'w') as y:
         write_str = ''.join([str(i) for i in array])
         y.seek(0)   # start curser at the beginning of the file to overwrite
@@ -60,7 +63,8 @@ if __name__ == "__main__":
 
     result = parser.parse_args()
                         
-    path = result.path
+    #path = result.path
+    path = 'testcode.yml'
     exclusion = result.exclusion
                         
     if (path.endswith('.yml') or path.endswith('.yaml')):
