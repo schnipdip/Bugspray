@@ -10,3 +10,7 @@ __UPDATES: v2r0__
 _7/24/2020_ - Deleted code_refactor.py -> replaced with bugspray.py
 
 _7/24/2020_ - Optimized code to handle nested block debugs
+
+__UPDATES: v2r1__
+
+_7/25/2020_ - Added the batch processing function to process multiple YAML files.
