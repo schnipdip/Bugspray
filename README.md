@@ -9,7 +9,7 @@ Bugspray allows you to mass remove debugs from your Ansible YAML files _or_ you 
 ## Requirements:
 
 1. [argparse](https://pypi.org/project/argparse/) 
-2. [yaml](https://pypi.org/project/PyYAML/)
+2. [ruamel.yaml](https://pypi.org/project/ruamel.yaml/)
 3. sys
 
 ## Installation:
