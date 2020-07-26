@@ -31,7 +31,6 @@ Process a single file with a exclusion:
 `
 python bugspray.py -i testcode.yml -e 'debug 1'
 `
-![](flag_i_sample.gif)
 
 Process multiple files:
 
@@ -52,6 +51,8 @@ Get Help:
 `
 python bugspray.py -h
 `
+
+_Video and Gifs for extra help are located in the `media/gifs` or `media/mp4` folders._
 
 ### Special Thanks:
 - TrayKnots 
