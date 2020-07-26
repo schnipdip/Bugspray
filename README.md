@@ -31,7 +31,7 @@ Process a single file with a exclusion:
 `
 python bugspray.py -i testcode.yml -e 'debug 1'
 `
-![](media/gif/flag_i_sample.gif)
+![](flag_i_sample.gif)
 
 Process multiple files:
 
