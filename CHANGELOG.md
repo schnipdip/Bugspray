@@ -14,3 +14,7 @@ _7/24/2020_ - Optimized code to handle nested block debugs
 __UPDATES: v2r1__
 
 _7/25/2020_ - Added the batch processing function to process multiple YAML files.
+
+__UPDATES: v2r2__
+
+_7/26/2020_ - Added a No-Output functionality that will pipe the output to `stdout` by using the `-n` flag.
