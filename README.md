@@ -40,6 +40,12 @@ _Note: If using batch processing, the location of the batch.txt file needs to be
 python bugspray.py -L batch.txt
 `
 
+Process files with the No Operation flag:
+
+`
+python bugspray.py -i testcode.yml -n
+`
+
 Get Help:
 
 `
