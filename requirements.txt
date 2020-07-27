@@ -1,2 +1,2 @@
 argparse
-PyYAML
+ruamel.yaml
