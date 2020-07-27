@@ -27,10 +27,7 @@ def parse_data(data, exclusion):
             continue
         if 'block' in dictionary:
             dictionary['block'] = parse_data(dictionary['block'], exclusion)
-            new.append(dictionary)
-        else:
-            new.append(dictionary)
-
+        new.append(dictionary)
     return new
 
 
