@@ -1,3 +1,6 @@
+[![Known Vulnerabilities](https://snyk.io/test/github/schnipdip/Bugspray/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/schnipdip/Bugspray?targetFile=requirements.txt)
+
+
 ![bugspray_img](https://funkyimg.com/i/36qvF.png) ![bugspray](https://funkyimg.com/i/36qh3.png)
 
 Are you tired of having to clean up debugs when pushing development code to Ops/Production? 
