@@ -17,4 +17,4 @@ _7/25/2020_ - Added the batch processing function to process multiple YAML files
 
 __UPDATES: v2r2__
 
-_7/26/2020_ - Added a No-Output functionality that will pipe the output to `stdout` by using the `-n` flag.
+_7/26/2020_ - Added a No Operation functionality that will pipe the output to `stdout` by using the `-n` flag.
