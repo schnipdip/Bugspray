@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e53981009b0b48a7b7e8efc200125af7)](https://app.codacy.com/manual/cjh30/Bugspray?utm_source=github.com&utm_medium=referral&utm_content=schnipdip/Bugspray&utm_campaign=Badge_Grade_Dashboard)
 [![Known Vulnerabilities](https://snyk.io/test/github/schnipdip/Bugspray/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/schnipdip/Bugspray?targetFile=requirements.txt)
 
 
